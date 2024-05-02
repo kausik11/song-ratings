@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: #dfdfdf;
+}
+.heading{
+  font-size: 2rem;
+  margin: 30px;
+  border-bottom: 1px solid black;
+  line-height: 50px;
+}
+.str-btn{
+  position: relative;
+  top: 0;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgb(60, 72, 245);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+#song-list{
+  position: relative;
+  top: 24px;
+  left: 80px;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.song-title {
+  position: absolute;
+  top: 24px;
+  left: 80px;
+  font-size: 1.2rem;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.song-card {
+  position: relative;
+  margin: 5px;
+  width: 780px;
+  height: 65px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.rating {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+.star {
+  position: relative;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg");
+  background-size: cover;
+  display: inline-block;
+}
