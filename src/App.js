@@ -6,11 +6,13 @@ class App extends Component{
     state = {
       songs:songs
     }
+    //this is sort by title function
     sortByTitle =()=>{
         this.setState({
           songs:[...this.state.songs.sort((a,b)=>{ return (a.title.toUpperCase() < b.title.toUpperCase() ? -1 : 1) })]
         })      
     }
+    //this is sort by ratings function
     sortByRating = ()=>{
       this.setState({
         songs:[...this.state.songs.sort((a,b)=>a.rating > b.rating ? -1 : 1)]
